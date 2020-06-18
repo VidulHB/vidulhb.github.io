@@ -51,6 +51,8 @@
 .card{
     margin-top: 30px;
     margin-left: 162px;
+    border: 3px;
+    border-color: white;
 }
 .edit{
     margin-top: 30px;
