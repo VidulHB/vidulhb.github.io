@@ -2,6 +2,7 @@
   padding: 0;
   font-family: sans-serif;
   background-size: 1263px;
+  text-decoration: none;
    
 }     
 .container{
@@ -24,7 +25,9 @@
    cursor: pointer;
    color: white;
    margin-top: 0px;
-  
+   text-decoration: none;
+   
+   
 }
 .logo img {
     width: 50px;
@@ -46,9 +49,31 @@
     color: white;
 }
 .www{
-    margin-left: 470px;
     margin-top: 30px;
-    color: white;
+    text-align: center;
+}
+.www{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.www::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.www:hover::after{
+    left: 0%;
+    width: 30%; 
+    margin-left: 440px;
+    margin-right: 444px;
 }
 .card{
     margin-top: 30px;
@@ -102,17 +127,88 @@
     margin-left: 570px;
 }
 .ba{
-    color: red;
-    
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
 }
-.ado{
-    color: black;
+.ba::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.ba:hover::after{
+    left: 0%;
+    width: 100%;
 }
 .co{
-    color: black;
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.co::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.co:hover::after{
+    left: 0%;
+    width: 100%;
 }
 .bl{
-    color: black;
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.bl::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.bl:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.abo{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.abo::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.abo:hover::after{
+    left: 0%;
+    width: 100%;
 }
 .iii ul{
     display: inline-flex;
@@ -149,3 +245,171 @@
 .h3{
     margin-left: 570px;
 }
+.mail{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.mail::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.mail:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.phone{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.phone::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.phone:hover::after{
+    left: 0%;
+    width: 100%;
+}    
+.ad{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.ad::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.ad:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.blogger{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.blogger::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.blogger:hover::after{
+    left: 0%;
+    width: 100%;
+}     
+.github{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.github::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.github:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.youtube{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.youtube::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.youtube:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.instagram{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.instagram::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.instagram:hover::after{
+    left: 0%;
+    width: 100%;
+}      
+.twitter{
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-size: 110%;
+    text-decoration: none;
+    position: relative;
+    color: cyan;
+}
+.twitter::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+}
+.twitter:hover::after{
+    left: 0%;
+    width: 100%;
+}      
