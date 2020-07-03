@@ -10,7 +10,7 @@
    background: url(vidul\ photo.jpg) ;
    background-size: 100%;
    background-repeat: no-repeat;
-   margin-right: -500px;
+   margin-right: -505px;
 }    
 .menu ul{
    display: inline-flex;
@@ -30,7 +30,6 @@
     width: 50px;
     margin-top: -10px;
     margin-right: 48px; 
-    
 }
 .background{
     width: fit-content;
@@ -103,7 +102,8 @@
     margin-left: 570px;
 }
 .ba{
-    color: black;
+    color: red;
+    
 }
 .ado{
     color: black;
@@ -135,4 +135,17 @@
 .yyyy{
     color: transparent;
     margin-right: 773px;
+}
+.you{
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    margin-left: 15px;
+    white-space: 100;
+}
+.vide{
+    background-color: lightblue;
+}
+.h3{
+    margin-left: 570px;
 }
