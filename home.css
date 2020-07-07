@@ -1,0 +1,52 @@
+*{margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: 1263px;
+    text-decoration: none;
+     
+  }     
+  .container{
+     width: fit-content;
+     height: 130px;
+     min-width: 1280px;
+     background: #343a40!important;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     margin-right: -505px;
+  } 
+  .vidul1114{
+      background: url(—Pngtree—hd\ abstract\ tech\ background_578452.jpg);
+      width: fit-content;
+      min-width: 1280px;
+      height: 480px;
+  }   
+  .menu ul{
+     display: inline-flex;
+     margin: 50px;
+     color: white;
+  }
+  .menu ul li{
+     list-style: none;
+     margin: 0 20px;
+     color: white;
+     cursor: pointer;
+     color: white;
+     margin-top: 0px;
+     text-decoration: none;
+     
+     
+  }
+  .logo img {
+      width: 50px;
+      margin-top: -10px;
+      margin-right: 48px;
+      border: white; 
+      border-style: ridge;
+  }
+  .hello{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.bbbbb{
+    color: transparent;
+}

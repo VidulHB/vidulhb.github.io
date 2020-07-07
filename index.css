@@ -9,7 +9,7 @@
    width: fit-content;
    height: 130px;
    min-width: 1263px;
-   background: black;
+   background: #343a40!important;
    background-size: 100%;
    background-repeat: no-repeat;
    margin-right: -505px;
@@ -18,7 +18,7 @@
     background: url(—Pngtree—hd\ abstract\ tech\ background_578452.jpg);
     width: fit-content;
     min-width: 1263px;
-    height: 500px;
+    height: 480px;
 }   
 .menu ul{
    display: inline-flex;
@@ -218,7 +218,8 @@
 }
 .abc{
     background: lightgrey;
-    min-width: 1262;
+    min-width: 1262px;
+    max-width: 1262px;
     height: 300px;
     width: fit-content;
     background-size: 100%;
@@ -362,6 +363,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .you{
     height: 220px;
     width: 380px;
+    border-radius: .90rem;
     background-color: lightblue;
     margin-left: 20px;
     margin-right:18px;
@@ -578,4 +580,4 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .twitter:hover::after{
     left: 0%;
     width: 100%;
-}      
+}
