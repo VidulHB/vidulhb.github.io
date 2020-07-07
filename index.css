@@ -96,27 +96,7 @@
     border-color: black;
     border-style: solid;
 }
-.card{
-    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
-    font-size: 110%;
-    text-decoration: none;
-    position: relative;
-    color: cyan;
-}
-.card::after{
-    content: "";
-    width: 0%;
-    height: 5px;
-    background-color: cyan;
-    position: absolute;
-    bottom: 0%; left: 50%;
-    border-radius: 10px;
-    transition: all 500ms ease; 
-}
-.card:hover::after{
-    left: 0%;
-    width: 100%;
-}
+
 .edit{
     margin-top: 30px;
     margin-left: 162px;
@@ -127,27 +107,7 @@
     width: 400px;
     border-style: solid;
 }
-.edit{
-    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
-    font-size: 110%;
-    text-decoration: none;
-    position: relative;
-    color: cyan;
-}
-.edit::after{
-    content: "";
-    width: 0%;
-    height: 5px;
-    background-color: cyan;
-    position: absolute;
-    bottom: 0%; left: 50%;
-    border-radius: 10px;
-    transition: all 500ms ease; 
-}
-.edit:hover::after{
-    left: 0%;
-    width: 100%; 
-}
+
 .acst{
     margin-left: 700px;
     margin-right: 162px;
@@ -159,27 +119,7 @@
     border-bottom: none;
     border-style: solid;
 }
-.acst{
-    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
-    font-size: 110%;
-    text-decoration: none;
-    position: relative;
-    color: cyan;
-}
-.acst::after{
-    content: "";
-    width: 0%;
-    height: 5px;
-    background-color: cyan;
-    position: absolute;
-    bottom: 0%; left: 50%;
-    border-radius: 10px;
-    transition: all 500ms ease; 
-}
-.acst:hover::after{
-    left: 0%;
-    width: 100%; 
-}
+
 .pc{
     margin-top: -200px;
     margin-left: 700px;
@@ -190,27 +130,7 @@
     border-style: solid;
     border-bottom: none;
 }
-.pc{
-    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
-    font-size: 110%;
-    text-decoration: none;
-    position: relative;
-    color: cyan;
-}
-.pc::after{
-    content: "";
-    width: 0%;
-    height: 5px;
-    background-color: cyan;
-    position: absolute;
-    bottom: 0%; left: 50%;
-    border-radius: 10px;
-    transition: all 500ms ease; 
-}
-.pc:hover::after{
-    left: 0%;
-    width: 100%; 
-}
+
 .vhb{
     color: lightblue;
     margin-left: 240px;
@@ -580,4 +500,146 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .twitter:hover::after{
     left: 0%;
     width: 100%;
+}
+.edwi{
+    border: black;
+    border: 2px;
+    border-style: solid;
+    border-radius: .75rem;
+    height: fit-content;
+    width: 800px;
+    margin-left: 231px;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
+.Grandfarthers{
+    background-color: gray;
+    text-align: center;
+}
+.lll{
+    width: 200px;
+    height: 240px;
+}
+.idda{
+    border: black;
+    border: 2px;
+    border-style: solid;
+    border-radius: .75rem;
+    height: fit-content;
+    width: 800px;
+    margin-left: 231px;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
+.cccc{
+    height: 240px;
+    width: 280px;
+}
+.pcc{
+    width: 400px;
+    height: 400px;
+    margin-left: 710px;
+    margin-top: -600px;
+    margin-bottom: 150px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.bits{
+    margin-left: 150px;
+    margin-top: 150px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.youtubepng{
+    height: 400px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 100px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.chrismas{
+    height: 400px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.logowall{
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+    margin-top: -460px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.newyear{
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+    margin-top: -460px;
+    margin-bottom: +20px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.vasaklogo{
+    height: 400px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.phr{
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+    margin-top: -400px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.phh{
+    height: 400px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.phg{
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+    margin-top: -400px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.phc{
+    height: 400px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+}
+.pho{
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+    margin-top: -400px;
+    border: black;
+    border: 2px;
+    border-style: solid;
 }
