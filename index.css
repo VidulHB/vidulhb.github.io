@@ -4,7 +4,7 @@
   background-size: 1263px;
   text-decoration: none;
    
-}     
+}    
 .container{
    width: fit-content;
    height: 130px;
@@ -91,10 +91,11 @@
     margin-left: 162px;
     border: 3px;
     height: 200px;
-    border-bottom: none;
+
     width: 400px;
     border-color: black;
     border-style: solid;
+    border-radius: 2rem;
 }
 
 .edit{
@@ -103,9 +104,10 @@
     border: 3px;
     border-color: black;
     height: 200px;
-    border-bottom: none;
+    
     width: 400px;
-    border-style: solid;
+    border-style: solid; 
+    border-radius: 2rem;
 }
 
 .acst{
@@ -116,7 +118,7 @@
     border-color: black;
     height: 200px;
     width: 400px;
-    border-bottom: none;
+    border-radius: 2rem;
     border-style: solid;
 }
 
@@ -128,7 +130,7 @@
     height: 200px;
     width: 400px;
     border-style: solid;
-    border-bottom: none;
+    border-radius: 2rem;
 }
 
 .vhb{
@@ -283,7 +285,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .you{
     height: 220px;
     width: 380px;
-    border-radius: .90rem;
+    border-radius: 1.7rem;
     background-color: lightblue;
     margin-left: 20px;
     margin-right:18px;
@@ -505,7 +507,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
-    border-radius: .75rem;
+    border-radius: 2rem;
     height: fit-content;
     width: 800px;
     margin-left: 231px;
@@ -524,7 +526,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
-    border-radius: .75rem;
+    border-radius: 2rem;
     height: fit-content;
     width: 800px;
     margin-left: 231px;
@@ -544,6 +546,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
+    border-radius: 2rem;
 }
 .bits{
     margin-left: 150px;
@@ -551,80 +554,9 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
+    border-radius: 2rem;
 }
-.youtubepng{
-    height: 400px;
-    width: 400px;
-    margin-left: 160px;
-    margin-top: 100px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.chrismas{
-    height: 400px;
-    width: 400px;
-    margin-left: 160px;
-    margin-top: 90px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.logowall{
-    height: 400px;
-    width: 400px;
-    margin-left: 710px;
-    margin-top: -460px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.newyear{
-    height: 400px;
-    width: 400px;
-    margin-left: 710px;
-    margin-top: -460px;
-    margin-bottom: +20px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.vasaklogo{
-    height: 400px;
-    width: 400px;
-    margin-left: 160px;
-    margin-top: 90px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.phr{
-    height: 400px;
-    width: 400px;
-    margin-left: 710px;
-    margin-top: -400px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.phh{
-    height: 400px;
-    width: 400px;
-    margin-left: 160px;
-    margin-top: 90px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
-.phg{
-    height: 400px;
-    width: 400px;
-    margin-left: 710px;
-    margin-top: -400px;
-    border: black;
-    border: 2px;
-    border-style: solid;
-}
+
 .phc{
     height: 400px;
     width: 400px;
@@ -633,6 +565,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
+    border-radius: 2rem;
 }
 .pho{
     height: 400px;
@@ -642,4 +575,5 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     border: black;
     border: 2px;
     border-style: solid;
+    border-radius: 2rem;
 }
