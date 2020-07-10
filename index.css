@@ -1,3 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.nav{
+  background: #343a40!important;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f2f2f2;
+  font-size: 33px;
+  line-height: 80px;
+  padding: 0 140px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.nav ul{
+  float: right;
+  margin-right: 60px;
+}
+.nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 2px;
+}
+.nav ul li a{
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  /* text-transform: uppercase; */
+  font-family: 'Poppins', sans-serif;
+}
+a.active,a:hover{
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 27px;
+    padding-left: 25px;
+  }
+  .nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+    margin-right: 40px;
+  }
+  .nav ul{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background: #2c3e50;
+    top: 80px;
+    left: -220%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
 *{margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -14,6 +113,7 @@
    background-repeat: no-repeat;
    margin-right: -505px;
 } 
+
 .vidul1114{
     background: url(—Pngtree—hd\ abstract\ tech\ background_578452.jpg);
     width: fit-content;
@@ -38,30 +138,31 @@
 }
 .logo img {
     width: 50px;
-    margin-top: -10px;
+    margin-top: 18px;
     margin-right: 48px;
     border: white; 
     border-style: ridge;
 }
 .background{
-    width: fit-content;
-    max-width: 1262px;
+    width: 1262px;
+
     background-color: #42455a;
     height: fit-content;
     background-size: 100%;
-    min-width: 1262px;
+
 }
 .hello{
     margin-top: 0px;
     margin-left: 30px;
 }
-.my{
-    margin-left: 580px;
+.MY{
     color: white;
+    text-align: center;
 }
 .www{
     margin-top: 30px;
     text-align: center;
+    font-size: 15px;
 }
 .www{
     font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -87,8 +188,8 @@
     margin-right: 444px;
 }
 .card{
-    margin-top: 30px;
-    margin-left: 162px;
+    margin-top: 80px;
+    margin-left: 140px;
     border: 3px;
     height: 200px;
 
@@ -100,7 +201,7 @@
 
 .edit{
     margin-top: 30px;
-    margin-left: 162px;
+    margin-left: 140px;
     border: 3px;
     border-color: black;
     height: 200px;
@@ -111,9 +212,8 @@
 }
 
 .acst{
-    margin-left: 700px;
-    margin-right: 162px;
-    margin-top: -205px; 
+    margin-left: 690px;
+    margin-top: -290px; 
     border: 3px;
     border-color: black;
     height: 200px;
@@ -124,7 +224,7 @@
 
 .pc{
     margin-top: -200px;
-    margin-left: 700px;
+    margin-left: 690px;
     border: 3px;
     border-color: black;
     height: 200px;
@@ -133,6 +233,7 @@
     border-radius: 2rem;
 }
 
+
 .vhb{
     color: lightblue;
     margin-left: 240px;
@@ -140,12 +241,11 @@
 }
 .abc{
     background: lightgrey;
-    min-width: 1262px;
-    max-width: 1262px;
-    height: 300px;
-    width: fit-content;
+
+    height: fit-content;
+    width: 1262;
     background-size: 100%;
-    color: lig;
+    color: lightgray;
 }
 .vidul{
     margin-left: 300px;
@@ -154,19 +254,17 @@
     color: black;
 }
 .about{
-    margin-left: 580px;
+    text-align: center;
     color: black;
 }
 .ddd{
     background: white;
-    width: 100%;
+    width: 1262px;
     height: 200px;
-    background-size: 100%;
-    min-width: 1262px;
-    max-width: 1262px;
+
 }
 .con{
-    margin-left: 570px;
+    text-align: center;
 }
 .ba{
     font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -264,12 +362,15 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 }
 .iii ul{
     display: inline-flex;
-    margin: 50px;
+    margin: 0px;
+    width: 300px;
     color: white;
     margin-left: +100px;
+    
 } 
 .iii ul li{
     list-style: none;
+    text-align: center;
     margin: 0 40px;
     color: white;
     cursor: pointer;
@@ -289,7 +390,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     width: 380px;
     border-radius: 1.7rem;
     background-color: lightblue;
-    margin-left: 20px;
+    margin-left: 17px;
     margin-right:18px;
     margin-top: 100px;
     white-space: 100;
@@ -321,12 +422,12 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 }
 .vide{
     background-color: lightblue;
-    width: fit-content;
-    min-width: 1263px;
-    height: 800px;
+    width: 1262px;
+
+    height: fit-content;
 }
 .h3{ 
-    margin-left: 570px;
+    text-align: center;
 } 
 .mail{
     font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -538,17 +639,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     width: 200px;
     height: 240px;
 }
-.idda{
-    border: black;
-    border: 2px;
-    border-style: solid;
-    border-radius: 2rem;
-    height: fit-content;
-    width: 800px;
-    margin-left: 231px;
-    text-align: center;
-    background-color: rgb(190, 190, 190);
-}
+
 .cccc{
     height: 240px;
     width: 280px;
@@ -556,19 +647,19 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .pcc{
     width: 400px;
     height: 400px;
-    margin-left: 710px;
+    margin-left: 690px;
     margin-top: -600px;
     margin-bottom: 150px;
-    border: black;
-    border: 2px;
+    border-color: black;
+    border: 3px;
     border-style: solid;
     border-radius: 2rem;
 }
 .bits{
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: 150px;
-    border: black;
-    border: 2px;
+    border-color: black;
+    border: 3px;
     border-style: solid;
     border-radius: 2rem;
 }
@@ -576,20 +667,119 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .phc{
     height: 400px;
     width: 400px;
-    margin-left: 160px;
+    margin-left: 140px;
     margin-top: 90px;
-    border: black;
-    border: 2px;
+    border-color: black;
+    border: 3px;
     border-style: solid;
     border-radius: 2rem;
 }
 .pho{
     height: 400px;
     width: 400px;
-    margin-left: 710px;
+    margin-left: 690px;
     margin-top: -400px;
-    border: black;
-    border: 2px;
+    border-color: black;
+    border: 3px;
     border-style: solid;
     border-radius: 2rem;
+}
+.connn{
+    align-items: center;
+}
+.connnn{
+    margin-left: -100px;
+}
+@media (max-width:2000px) {
+    
+    body {
+        overflow-x: unset;
+    }
+    
+    .background{
+        width: 100%;
+    }
+    .card{
+        align-items: center;
+        margin-left: 13%;
+    }
+    .edit{
+        margin-left: 13%;
+        align-items: center;
+    }
+    .acst{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .pc{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .pcc{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+    .bits{
+        margin-left: 10%;
+    }
+    .phc{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .pho{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .my{
+        text-align: center;
+    }
+    .vide{
+        width: 100%;
+    }
+    
+    .you{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .caa{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .ddd{
+        width: 100%;
+    }
+    .con{
+        text-align: center;
+    }
+    .blogger{
+        margin-top: 50px;
+    }
+    .www:hover::after{
+        margin-right: 5%;
+    }
+    .iii{
+        width: 100%;
+    }
+    .connn{
+        margin-top: 5%;
+        margin-left: +5%;
+    }
+    .connnn{
+        margin-top: 5%;
+        margin-left: +5%;
+    }
+    .connnnn{
+        margin-top: 5%;
+        margin-left: +5%;
+    }
+    .edwi{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .vidul{
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
 }
