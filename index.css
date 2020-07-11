@@ -52,7 +52,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 952px){
+@media screen and (max-width: 952px){
   label.logo{
     font-size: 27px;
     padding-left: 25px;
@@ -61,7 +61,7 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
+@media screen and (max-width: 858px){
   .checkbtn{
     display: block;
     margin-right: 40px;
@@ -261,6 +261,8 @@ section{
     background: white;
     width: 1262px;
     height: 200px;
+    align-items: center;
+    text-align: center;
 
 }
 .con{
@@ -690,7 +692,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .connnn{
     margin-left: -100px;
 }
-@media (max-width:2000px) {
+@media screen and (max-width:2000px) {
     
     body {
         overflow-x: unset;
@@ -747,6 +749,8 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     }
     .ddd{
         width: 100%;
+        text-align: center;
+        align-items: center;
     }
     .con{
         text-align: center;
@@ -762,15 +766,15 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     }
     .connn{
         margin-top: 5%;
-        margin-left: +5%;
+        margin-left: 0%;
     }
     .connnn{
         margin-top: 5%;
-        margin-left: +5%;
+        margin-left: 0%;
     }
     .connnnn{
         margin-top: 5%;
-        margin-left: +5%;
+        margin-left: 0%;
     }
     .edwi{
         margin-left: 10%;
