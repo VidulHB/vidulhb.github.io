@@ -1,3 +1,75 @@
+body{
+	background-color: #004c66;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.loading-container {
+  height: 100vh;
+  background-color: #004c66;
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  animation:  0.1s;
+}
+@Keyframes spin{
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.container{
+	width: 40px;
+  margin: 70px auto;
+  margin-top: 130px;
+}
+.dot{
+	width: 10px;
+	height: 10px;	
+	display: inline-block;
+	border-radius: 50%;
+	
+}
+.dot1{
+	background-color: #1abc9c;
+	animation: jump-up 0.6s 0.1s linear infinite;
+}
+.dot2{
+	background-color: cyan;
+	animation: jump-up 0.6s 0.2s linear infinite;
+}
+.dot3{
+	background-color: #ffd64a;
+	animation: jump-up 0.6s 0.3s linear infinite;
+}
+.dot4{
+	background-color: #e067af;
+	animation: jump-up 0.6s 0.3s linear infinite;
+}
+.dot5{
+	background-color: orange;
+	animation: jump-up 0.6s 0.0s linear infinite;
+}
+.dot6{
+	background-color: orangered;
+	animation: jump-up 0.6s 0.1s linear infinite;
+}
+
+@Keyframes jump-up{
+	50%{
+		transform: translate(0,15px);
+	}
+}
+@Keyframes pulse{
+	100%{
+		opacity: 0;
+	}
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -13,11 +85,20 @@
 }
 label.logo{
   color: #f2f2f2;
-  font-size: 33px;
+  font-size: 28px;
   line-height: 80px;
   padding: 0 140px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+}
+label.log{
+    color: #f2f2f2;
+    font-size: 25px;
+    line-height: 80px;
+    margin-left: -30px;
+    padding: 0 140px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 .nav ul{
   float: right;
@@ -56,6 +137,10 @@ a.active,a:hover{
   label.logo{
     font-size: 27px;
     padding-left: 25px;
+  }
+  label.log{
+    font-size: 20px;
+    padding-left: 105px;
   }
   .nav ul li a{
     font-size: 16px;
@@ -104,7 +189,7 @@ section{
   text-decoration: none;
    
 }    
-.container{
+.containe{
    width: fit-content;
    height: 130px;
    min-width: 1263px;
@@ -112,29 +197,12 @@ section{
    background-size: 100%;
    background-repeat: no-repeat;
    margin-right: -505px;
-} 
-
+}
 .vidul1114{
     background: url(—Pngtree—hd\ abstract\ tech\ background_578452.jpg);
     width: fit-content;
     min-width: 1263px;
     height: 480px;
-}   
-.menu ul{
-   display: inline-flex;
-   margin: 50px;
-   color: white;
-}
-.menu ul li{
-   list-style: none;
-   margin: 0 20px;
-   color: white;
-   cursor: pointer;
-   color: white;
-   margin-top: 0px;
-   text-decoration: none;
-   
-   
 }
 .logo img {
     width: 50px;
@@ -267,6 +335,7 @@ section{
 }
 .con{
     text-align: center;
+    align-items: center;
 }
 .ba{
     font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
@@ -364,14 +433,14 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 }
 .iii ul{
     display: inline-flex;
-    margin: 0px;
+    margin: 110px;
     width: 300px;
     color: white;
-    margin-left: +100px;
     
 } 
 .iii ul li{
     list-style: none;
+
     text-align: center;
     margin: 0 40px;
     color: white;
@@ -692,7 +761,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .connnn{
     margin-left: -100px;
 }
-@media screen and (max-width:2000px) {
+@media screen and (max-width:1262px) {
     
     body {
         overflow-x: unset;
@@ -702,24 +771,26 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
         width: 100%;
     }
     .card{
-        align-items: center;
-        margin-left: 13%;
+       margin-left: 10%;
+
     }
     .edit{
-        margin-left: 13%;
-        align-items: center;
+        margin-left: 10%;
+        
     }
     .acst{
-        margin-top: 10%;
-        margin-left: 10%;
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: 10%;
     }
     .pc{
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-right: 10%;
     }
     .pcc{
         margin-top: 15%;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .bits{
         margin-left: 10%;
@@ -730,7 +801,8 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     }
     .pho{
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-right: 10%;
     }
     .my{
         text-align: center;
@@ -741,7 +813,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     
     .you{
         margin-top: 10%;
-        margin-left: 15%;
+        margin-left: 11%;
     }
     .caa{
         margin-top: 10%;
@@ -786,4 +858,52 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
         margin-right: 15%;
     }
 
+}
+@media screen and (max-width:800px) {
+    .card{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .edit{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .acst{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .pc{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .pcc{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .bits{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .pho{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .phc{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .you{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    
 }
