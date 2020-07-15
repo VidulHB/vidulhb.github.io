@@ -922,6 +922,9 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
         margin-left: 5%;
 	align-items: center;
     }
+    .iii ul li{
+	display:none;
+    }
     
 }
 @media screen and (max-width:5000px) {
