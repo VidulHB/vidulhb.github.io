@@ -16,7 +16,7 @@ body{
   width: 100%;
   z-index: 99999;
   position: fixed;
-  animation:  0.1s;
+  animation:  0.5s;
 }
 @Keyframes spin{
 	100%{
