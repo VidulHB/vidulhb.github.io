@@ -16,7 +16,7 @@ body{
   width: 100%;
   z-index: 99999;
   position: fixed;
-  animation:  0.1s;
+  animation:  0.3s;
 }
 @Keyframes spin{
 	100%{
@@ -761,7 +761,7 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
 .connnn{
     margin-left: -100px;
 }
-@media screen and (max-width:1262px) {
+@media screen and (max-width:1263px) {
     
     body {
         overflow-x: unset;
@@ -868,42 +868,140 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     .edit{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .acst{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .pc{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .pcc{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .bits{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .pho{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .phc{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .you{
         width: 90%;
         height: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     
+}
+@media screen and (max-width:5000px) {
+    
+    body {
+        overflow-x: unset;
+    }
+    
+    .background{
+        width: 100%;
+    }
+    .card{
+       margin-left: 10%;
+
+    }
+    .edit{
+        margin-left: 10%;
+        
+    }
+    .acst{
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    .pc{
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    .pcc{
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    .bits{
+        margin-left: 10%;
+    }
+    .phc{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .pho{
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    .my{
+        text-align: center;
+    }
+    .vide{
+        width: 100%;
+    }
+    
+    .you{
+        margin-top: 10%;
+        margin-left: 11%;
+    }
+    .caa{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .ddd{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .con{
+        text-align: center;
+    }
+    .blogger{
+        margin-top: 50px;
+    }
+    .www:hover::after{
+        margin-right: 5%;
+    }
+    .iii{
+        width: 100%;
+    }
+    .connn{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .connnn{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .connnnn{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .edwi{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .vidul{
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
 }
