@@ -1,5 +1,5 @@
 body{
-	background-color: #004c66;
+	background-color: #0082e6;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
@@ -16,7 +16,7 @@ body{
   width: 100%;
   z-index: 99999;
   position: fixed;
-  animation:  0.1s;
+  animation:  0.2s;
 }
 @Keyframes spin{
 	100%{

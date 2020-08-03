@@ -16,7 +16,6 @@ body{
   width: 100%;
   z-index: 99999;
   position: fixed;
-  animation:  0.3s;
 }
 @Keyframes spin{
 	100%{
@@ -769,40 +768,48 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
     
     .background{
         width: 100%;
+	align-items: center;
     }
     .card{
        margin-left: 10%;
+       align-items: center;
 
     }
     .edit{
         margin-left: 10%;
-        
+        align-items: center;
     }
     .acst{
         margin-top: 7%;
         margin-left: 15%;
         margin-right: 10%;
+	align-items: center;
     }
     .pc{
         margin-top: 5%;
         margin-left: 15%;
         margin-right: 10%;
+	align-items: center;
     }
     .pcc{
         margin-top: 15%;
         margin-left: 15%;
+	align-items: center;
     }
     .bits{
         margin-left: 10%;
+	align-items: center;
     }
     .phc{
         margin-top: 10%;
         margin-left: 10%;
+	align-items: center;
     }
     .pho{
         margin-top: 10%;
         margin-left: 15%;
         margin-right: 10%;
+	align-items: center;
     }
     .my{
         text-align: center;
@@ -864,46 +871,66 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
         width: 90%;
         height: 90%;
         margin-left: 5%;
+        align-items: center;
     }
     .edit{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
     }
     .acst{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
     }
     .pc{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
     }
     .pcc{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
     }
     .bits{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+        align-items: center;
     }
     .pho{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+	align-items: center;
+        margin-left: 5%;
     }
     .phc{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
     }
     .you{
         width: 90%;
         height: 90%;
         margin-left: 3%;
+        margin-left: 5%;
+	align-items: center;
+    }
+    .iii ul li{
+	display:none;
     }
     
 }
@@ -1003,5 +1030,4 @@ background: linear-gradient(to right, #0575E6, cyan); /* W3C, IE 10+/ Edge, Fire
         margin-left: 15%;
         margin-right: 15%;
     }
-
 }
